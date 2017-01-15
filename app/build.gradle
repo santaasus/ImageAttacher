@@ -27,3 +27,12 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     testCompile 'junit:junit:4.12'
 }
+
+
+task createJar(type: Copy) {
+    from('app/build/intermediates/bundles/release')
+    into('libs/')
+    include('classes.jar')
+    rename('classes.jar', 'ImageAttacher.jar')
+}
+
