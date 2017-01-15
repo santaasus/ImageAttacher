@@ -30,6 +30,5 @@ public class ImageAttacher implements BaseAttacher, Callback {
     @Override
     public void onFetch(Bitmap bitmap) {
         localAttach(bitmap);
-        view.getDrawable();
     }
 }
