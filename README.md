@@ -1,4 +1,4 @@
-# This projec help you loading asynchronously an image from url to ImageView
+# This project helps you loading asynchronously an image from url to ImageView
 
 For example:
 String url = "http://javasea.ru/uploads/posts/2013-11/1383410113_kartinka-eva.jpg";
